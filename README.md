@@ -1,10 +1,25 @@
-# Getting Started with Create React App
+# Frontend - Assignment
+
+## Problem Statement
+
+The task was to take the json as input and create a form according to the provided json.
+
+## Approach
+
+After going through the examples provided I decided to create a seperate component for each UI type like Input, Group, Select, Ignore, Switch, etc.
+Then as we will take the input from the user in the form of JSON we need to parse it into the Javascript Object.
+Now I traversed the given input and Rendered the components based on the UI Type specified in the JSON.
+After this another task was to fetch the data filled by the user in the above generated form and then return the filled data as JSON on submit of the form.
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `npm install`
+To download all the package used in the project
 
 ### `npm start`
 
