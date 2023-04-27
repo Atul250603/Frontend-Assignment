@@ -23,7 +23,7 @@ function Select(props){
     return(
         <div className="input select">
             <label htmlFor={currJsonKey}>{props.element.label}<Description element={props.element}/></label>
-            <select name={currJsonKey} jsonKey={currJsonKey} id={currJsonKey}  onClick={(e)=>onChangeHandler(e)} required={props.element.validate.required}>
+            <select name={currJsonKey} jsonKey={currJsonKey} id={currJsonKey}  onChange={(e)=>onChangeHandler(e)} required={props.element.validate.required}>
             {
                 props.element.validate.options.map((element,idx)=>{
                     return(
